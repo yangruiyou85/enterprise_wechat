@@ -1,7 +1,7 @@
 # 初始化
 ```python
 from wechat.app import WeChatApp
-app = WeChatApp('xxxxxxxx', 'xxxxxxxx', 'xxxxxxxxxxxx')
+app = WeChatApp(corp_id, secret,agent_id)
 
 app.send_text_message() #发送文本信息
 app.send_card_message() # 发送卡片信息
